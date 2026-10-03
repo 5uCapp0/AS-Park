@@ -1,0 +1,67 @@
+{
+  "config": "L3-Online sigma2 sensitivity, 1-D aisle M=16 N=8 frac=0.35, lr=1e-2, 50 epochs, fixed torch seeds; sigma2=1.0 reuses 10-seed main, other tiers 5 seeds; u_trough_count = seeds whose gap-vs-lambda curve has an interior minimum below both endpoints",
+  "sigma2_grid": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "per_sigma2": {
+    "0.25": {
+      "n_seeds": 5,
+      "lamstar_mean": 0.7719616303682908,
+      "gap_star_mean_pct": 14.793003200715862,
+      "u_trough_count": 4,
+      "welch_vs_lam0": {
+        "t": -0.950,
+        "p": 0.3959
+      },
+      "welch_vs_lam1": {
+        "t": 0.672,
+        "p": 0.5228
+      }
+    },
+    "0.5": {
+      "n_seeds": 5,
+      "lamstar_mean": 0.6286757750594171,
+      "gap_star_mean_pct": 11.211912206073897,
+      "u_trough_count": 5,
+      "welch_vs_lam0": {
+        "t": -0.243,
+        "p": 0.8196
+      },
+      "welch_vs_lam1": {
+        "t": 1.419,
+        "p": 0.2116
+      }
+    },
+    "2.0": {
+      "n_seeds": 5,
+      "lamstar_mean": 0.2975192374389779,
+      "gap_star_mean_pct": 5.757246523035038,
+      "u_trough_count": 5,
+      "welch_vs_lam0": {
+        "t": 7.303,
+        "p": 0.0008
+      },
+      "welch_vs_lam1": {
+        "t": 8.989,
+        "p": 0.0000483
+      }
+    },
+    "1.0": {
+      "n_seeds": 10,
+      "lamstar_mean": 0.45473665812851427,
+      "gap_star_mean_pct": 5.660550070300654,
+      "u_trough_count": 10,
+      "welch_vs_lam0": {
+        "t": 6.199421586209259,
+        "p": 0.00011162491510902717
+      },
+      "welch_vs_lam1": {
+        "t": 6.05761908669408,
+        "p": 1.4553099081556185e-05
+      }
+    }
+  }
+}

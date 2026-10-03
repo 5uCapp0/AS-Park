@@ -1,0 +1,103 @@
+{
+  "source": "mappo_typeaware_gpu0.log",
+  "per_seed": {
+    "20260925": {
+      "seed": 20260925,
+      "final_gap": 10.43,
+      "gap_std": 5.75,
+      "best_gap": 10.13,
+      "updates_done": 1700,
+      "complete": true
+    },
+    "7": {
+      "seed": 7,
+      "final_gap": 10.0,
+      "gap_std": 6.1,
+      "best_gap": 9.61,
+      "updates_done": 1400,
+      "complete": true
+    },
+    "42": {
+      "seed": 42,
+      "final_gap": 10.17,
+      "gap_std": 5.77,
+      "best_gap": 9.56,
+      "updates_done": 1950,
+      "complete": true
+    },
+    "123": {
+      "seed": 123,
+      "final_gap": 10.11,
+      "gap_std": 5.62,
+      "best_gap": 9.71,
+      "updates_done": 850,
+      "complete": true
+    },
+    "2024": {
+      "seed": 2024,
+      "final_gap": 10.28,
+      "gap_std": 5.53,
+      "best_gap": 10.22,
+      "updates_done": 650,
+      "complete": true
+    },
+    "555": {
+      "seed": 555,
+      "final_gap": 10.09,
+      "gap_std": 5.4,
+      "best_gap": 9.76,
+      "updates_done": 750,
+      "complete": true
+    },
+    "777": {
+      "seed": 777,
+      "final_gap": 9.64,
+      "gap_std": 5.75,
+      "best_gap": 9.56,
+      "updates_done": 900,
+      "complete": true
+    },
+    "999": {
+      "seed": 999,
+      "final_gap": 9.97,
+      "gap_std": 5.9,
+      "best_gap": 9.91,
+      "updates_done": 800,
+      "complete": true
+    },
+    "1111": {
+      "seed": 1111,
+      "final_gap": 9.97,
+      "gap_std": 5.66,
+      "best_gap": 9.66,
+      "updates_done": 2000,
+      "complete": true
+    },
+    "2222": {
+      "seed": 2222,
+      "final_gap": 9.89,
+      "gap_std": 5.66,
+      "best_gap": 9.41,
+      "updates_done": 800,
+      "complete": true
+    }
+  },
+  "aggregate": {
+    "n_complete": 10,
+    "final_gap_mean": 10.055,
+    "final_gap_std": 0.2175,
+    "best_gap_mean": 9.753,
+    "seeds": [
+      20260925,
+      7,
+      42,
+      123,
+      2024,
+      555,
+      777,
+      999,
+      1111,
+      2222
+    ]
+  }
+}

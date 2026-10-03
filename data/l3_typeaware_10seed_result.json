@@ -1,0 +1,79 @@
+{
+  "exp": "l3_typeaware_equivariant_arm",
+  "env": "DeepSets equivariant backbone with type one-hot input (strictly S_N-equivariant), sigma2=1.0, 50 epochs, 10 seeds merged from p0/p1/p2",
+  "seeds": [
+    "20260925",
+    "7",
+    "42",
+    "123",
+    "2024",
+    "314159",
+    "271828",
+    "161803",
+    "141421",
+    "101010"
+  ],
+  "per_seed": {
+    "20260925": {
+      "lam0_typeAware_gap": 0.11042461609594924,
+      "lam_star_gap": 0.059864596791067794
+    },
+    "7": {
+      "lam0_typeAware_gap": 0.09968650203027468,
+      "lam_star_gap": 0.04405740820093022
+    },
+    "42": {
+      "lam0_typeAware_gap": 0.11447502780654754,
+      "lam_star_gap": 0.04776622391885695
+    },
+    "123": {
+      "lam0_typeAware_gap": 0.10040306932456014,
+      "lam_star_gap": 0.05028117594202219
+    },
+    "2024": {
+      "lam0_typeAware_gap": 0.11663374796241188,
+      "lam_star_gap": 0.09013169776105576
+    },
+    "314159": {
+      "lam0_typeAware_gap": 0.1034501858549095,
+      "lam_star_gap": 0.07296394273877499
+    },
+    "271828": {
+      "lam0_typeAware_gap": 0.11136942589355253,
+      "lam_star_gap": 0.059482522273181404
+    },
+    "161803": {
+      "lam0_typeAware_gap": 0.1068256028158352,
+      "lam_star_gap": 0.05011120169054509
+    },
+    "141421": {
+      "lam0_typeAware_gap": 0.10304759126060274,
+      "lam_star_gap": 0.044771869889180305
+    },
+    "101010": {
+      "lam0_typeAware_gap": 0.10664223192825899,
+      "lam_star_gap": 0.03363952158637973
+    }
+  },
+  "aggregate": {
+    "lam0_typeAware_gap_mean_pct": 10.729580009729025,
+    "lam0_typeAware_gap_std_pct": 0.5513781970199156,
+    "lam_star_gap_mean_pct": 5.530701607919944,
+    "lam_star_gap_std_pct": 1.5423599807220691,
+    "lam1_gap_mean_pct": 14.831731743347731,
+    "lam1_gap_std_pct": 6.857514434027532,
+    "n_seeds": 10
+  },
+  "welch_vs_attrblind_lam0": [
+    1.4853682657613279,
+    0.1552305561631511
+  ],
+  "welch_vs_main_lamstar": [
+    -0.14357833806805897,
+    0.8876263200396605
+  ],
+  "welch_typeAware_lam0_vs_main_lamstar": [
+    6.614173894680435,
+    5.7118600676382384e-05
+  ]
+}
